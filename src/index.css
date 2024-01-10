@@ -1,13 +1,58 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: fit-content;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 100px black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+h1, h4 {
+  margin: 0;
+}
+
+.MobileView {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+  font-family: monospace;
+}
+
+@media only screen and (max-width: 1000px) {
+  .App {
+    display: none;
+  }
+
+  .MobileView {
+    display: flex;
+  }
 }

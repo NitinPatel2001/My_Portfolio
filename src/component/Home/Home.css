@@ -1,0 +1,49 @@
+.Home {
+    width: 100%;
+    height: 90vh;
+    background-color: #111;
+    margin: 0;
+    padding: 0;
+}
+
+.HomeContent {
+    color: #F0F0F0;
+    font-family: monospace;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 100px 100px 30px 100px;
+}
+
+.NameHome {
+    margin: 10px 0px 10px 0px;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: linear-gradient(90deg, #9845E8 -1.72%, #33D2FF 54.05%, #DD5789 99.78%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contentHome {
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.Links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 30px;
+    margin-top: 12%;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
