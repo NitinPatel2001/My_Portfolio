@@ -12,7 +12,7 @@ const Home = () => {
         <div className='HomeContent'>
             <h4>Hey, I'm</h4>
             <h1 className='NameHome'>NITIN PATEL</h1>
-            <p className='contentHome'>I'm a software engineer based in Toronto, Canada and also a communication and journalism student. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. I have been freelancing for a year now while studying at the university and I've manage to gain a decent amount of experience and valuable knowledge from all different kinds of fields throughout my projects/work.</p>
+            <p className='contentHome'>Dynamic Computer Engineering graduate from Delhi Technological University with a robust background in software development and technical content creation. Adept at leveraging cutting-edge technologies to drive innovative solutions, coupled with a proven track record in hackathons and project leadership</p>
             <div className='Links'>
                 <LinkButton Icon={EmailIcon} Content='Email' Color='#9358F7' Link='mailto:np68175@gmail.com'/>
                 <LinkButton Icon={LinkedInIcon} Content='LinkedIn' Color='#6964DE' Link='https://www.linkedin.com/in/nitin-patel-76282218a/'/>

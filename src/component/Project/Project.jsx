@@ -3,8 +3,22 @@ import './Project.css'
 import ProjectCard from '../../Utilities/ProjectCard/ProjectCard'
 import PoetryDisplay from './PoetryHub.png'
 import SOLCODE from './Solcode.png'
+import TinyMiracle from './TinyMiracle.png'
 
 const arr = [
+    {
+        ProjectImage: TinyMiracle,
+        ProjectName: 'Tiny Miracle',
+        ProjectAbout: [
+            '- Developed a Full-Stack React Website with a team, capable of efficiently handling 1000+ member registrations and event registrations for 20+ events organized by Tiny Miracle Organization.',
+            '- The platform includes an Admin Dashboard and presents the Multidimensional Poverty Index, which assesses deprivation across 3 dimensions of Family.'
+        ],
+        PorjectLiveLink: 'https://tiny-miracle-frontend.onrender.com/',
+        ProjectGithubLink: 'https://github.com/NitinPatel2001/Tiny_Miracle/',
+        ProjectTechStack: [
+            'React','MaterialUI','MongoDB','ExpressJs:4.18','Nodejs','bycryptjs:2.4.3'
+        ]
+    },
     {
         ProjectImage: PoetryDisplay,
         ProjectName: 'POETRYHUB',
