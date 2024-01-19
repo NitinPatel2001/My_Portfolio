@@ -2,8 +2,10 @@
     width: 200px;
     height: 55px;
 }
+
 .buttonLink a{
    text-decoration: none;
+   cursor: pointer;
 }
 
 .ButtonContent {
@@ -21,4 +23,8 @@
     line-height: 24px;
     justify-content: center;
     gap: 10px;
+}
+
+.ButtonContent:hover {
+    box-shadow: 4px 4px 30px white;
 }

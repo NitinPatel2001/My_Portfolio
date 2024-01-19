@@ -51,7 +51,6 @@ const Project = () => {
   return (
     <div className='Project' id='Project'>
         <div className='ProjectContent'>
-            <div className='ProjectTitle'>My Work</div>
             <div className='ProjectCard'>
                 {arr.map((project)=>{
                     return (<ProjectCard ProjectImage={project.ProjectImage} ProjectName={project.ProjectName} AboutProject={project.ProjectAbout} TechStack={project.ProjectTechStack} LiveLink={project.PorjectLiveLink} Github={project.ProjectGithubLink}/>)

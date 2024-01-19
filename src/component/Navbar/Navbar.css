@@ -1,10 +1,8 @@
 .Navbar {
-    /* background-color: #111; */
-    width: 100%;
+    width: 100vw;
     height: 10vh;
     line-height: normal;
     display: flex;
-    /* position: fixed; */
 }
 
 .NavContent {
@@ -43,6 +41,11 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+}
+
+.navitem a:hover {
+    box-shadow: 2px 2px 20px white;
+    padding: 10px 20px 10px 20px;
 }
 
 @media only screen and (max-width: 768px) {

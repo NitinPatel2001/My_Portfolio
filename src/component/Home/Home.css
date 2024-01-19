@@ -4,7 +4,6 @@
     background-color: #111;
     margin: 0;
     padding: 0;
-    z-index: -2;
     position: fixed;
 }
 
@@ -22,13 +21,39 @@
     margin: 10px 0px 10px 0px;
     font-size: 96px;
     font-style: normal;
-    font-weight: 500;
     line-height: normal;
     background: linear-gradient(90deg, #9845E8 -1.72%, #33D2FF 54.05%, #DD5789 99.78%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    position: relative;
+    color: hsl(0, 0%, 68%);
+    font-weight: bold!important;
+    font-family: "Anonymous Pro", monospace!important;
+    letter-spacing: 7px!important;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
 }
+
+@keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 710px;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: hsl(0, 0%, 80%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
 
 .contentHome {
     text-align: justify;
@@ -44,8 +69,14 @@
     width: 100%;
     gap: 30px;
     margin-top: 12%;
+    /* animation: LINKER 1s linear; */
 }
 
-@media only screen and (max-width: 768px) {
-
+@keyframes LINKER {
+    0% {
+        transform: translate(0%, 500%);
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
 }

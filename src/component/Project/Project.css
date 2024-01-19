@@ -1,9 +1,8 @@
 .Project {
-    width: 100%;
-    margin: 0;
-    padding: 0;
     background-color: #000;
-    line-height: normal;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
 }
 
 .ProjectContent {
@@ -29,9 +28,17 @@
     flex-wrap: wrap;
     gap: 5%;
     justify-content: space-between;
-    margin-top: 4%;
     margin-bottom: 4%;
     align-items: stretch;
-    /* line-height: 50%; */
     border-bottom: 2px solid white;
+    animation: Slide 1s;
+}
+
+@keyframes Slide {
+    0% {
+        transform: translate(0%, 100%);
+    }
+    100% {
+        transform: translate(0%, 0%);
+    }
 }

@@ -1,13 +1,14 @@
 body {
   margin: 0px;
   padding: 0px;
+  width: 100vw;
   background-color: #111;
+  overflow-x: hidden; /* Hide scrollbars */
 }
 
 .App {
   margin: 0px;
   padding: 0px;
-  width: 100%;
   height: fit-content;
 }
 
