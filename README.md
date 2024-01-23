@@ -9,10 +9,11 @@ Access My Portfolio at: https://nitin-patel.netlify.app/
 
 ## Table of Content
 
-Home Page
-Experience
-My Work
-Resume
+- About
+- ScreeShot
+- Technologies
+- Setup for Local
+- Status
 
 ## About
 
