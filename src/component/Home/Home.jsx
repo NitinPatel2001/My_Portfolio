@@ -13,7 +13,7 @@ const Home = () => {
         <div className='HomeContent'>
             <h4>Hey, I'm</h4>
             <h1 className='NameHome'>
-                NITIN PATEL
+                Cooler
             </h1>
             <p className='contentHome'>Dynamic Computer Engineering graduate from Delhi Technological University with a robust background in software development and technical content creation. Adept at leveraging cutting-edge technologies to drive innovative solutions, coupled with a proven track record in hackathons and project leadership</p>
             <div className='Links'>
